@@ -1,0 +1,35 @@
+.header-text{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.block1-text .btn{
+    padding: 1% 7%;
+    margin-left: 40%;
+}
+
+.block{
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block1-text{
+    flex-basis: 44%;
+}
+
+.block1-text h3, .block3-header h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:#04AA6D;
+}
+
+.block1-text p{
+    color:gray;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: center;
+}

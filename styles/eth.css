@@ -1,0 +1,114 @@
+.header-img{
+    flex-basis: 30%;
+}
+
+.header-img img{
+    width: 100%;
+}
+
+marquee{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+marquee span{
+    color: red;
+    margin-left: 30px;
+}
+
+#block2{
+    width: 80%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.block2-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#block2 h2{
+    color:#04AA6D;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#block2 p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.input div{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input{
+    margin-left: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.input label{
+    color:#04AA6D;
+    text-transform: uppercase;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.radio label{
+    font-size: 18px;
+}
+
+.gender label{
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.gender select{
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    border: 1px solid #04AA6D;
+}
+
+.region{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.act{
+    font-size: 18px;
+    color:#04AA6D;
+    text-transform: uppercase;
+}
+
+.text textarea{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("../images/money.jpg");
+}
+
+.text input{
+    color: white;
+    padding: 2% 10%;
+    border: none;
+    border-radius: 15px;
+    background-color: #04AA6D;
+    cursor: pointer;
+}

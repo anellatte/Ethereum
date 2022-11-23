@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Sono:wght@400;700&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#signin{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.signin-right{
+    color: white;
+    text-align: center;
+    border: 3px solid black;
+    height: 90vh;
+    flex-basis: 40%;
+    background-size: cover;
+    background-image: url("../images/sign.webp");
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 4px 0 30px 4px rgba(0, 0, 0, 0.5);
+}
+
+.signin-left{
+    text-align: center;
+    border: 3px solid black;
+    height: 90vh;
+    border-right: 0px;
+    flex-basis: 50%;
+    background-color: #e7f5ef;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 4px 0 30px 4px rgba(0, 0, 0, 0.5);
+}
+
+.signin-right h2{
+    padding-top: 200px;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.signin-right p{
+    margin-bottom: 50px;
+}
+
+.signin-right a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2% 10%;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.signin-right a:hover{
+    background-color: green;
+}
+
+.signin-left h2{
+    margin-top: 80px;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.signin-left p{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.signin_icons{
+    margin: auto;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.signin_icons ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin_icons ul li{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.signin_icons ul li:hover{
+    background-color: white;
+}
+
+.fa-facebook{
+    color:rgb(255, 255, 255);
+}
+
+.facebook{
+    background-color: blue;
+}
+
+.fa-linkedin-in{
+    color:rgb(255, 255, 255);
+}
+
+.linkedin{
+    background-color: crimson;
+}
+
+.fa-google-plus-g{
+    color:rgb(255, 255, 255);
+}
+
+.google{
+    background-color: rgb(255, 187, 0);
+}
+
+.signup_right p{
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: gray;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 320px;
+    border: none;
+    height: 30px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signin-left a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #04AA6D;
+    background-color: #04AA6D;
+    padding: 2% 10%;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 1s;
+}
+
+.signin-left a:hover{
+    background-color:aquamarine;
+}
+
+hr{
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 1px;
+    background-color: black;
+}
